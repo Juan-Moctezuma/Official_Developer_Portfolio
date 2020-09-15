@@ -47,7 +47,7 @@ header {
 }
 
 .sectionHeader .headerTitle2 {
-    font-size:6.5vw;
+    font-size: 6.5vw;
     color: white;
     position: relative;
     animation: header1 1.50s 1;
@@ -268,6 +268,12 @@ svg {
 	transform: translate(-50%, -50%);
 }
 
+
+
+
+
+
+
 #cardContainer {
     margin-top: 60px;
 }
@@ -281,6 +287,8 @@ svg {
 }
 
 .flip-card {
+    margin-top: 17px;
+    margin-bottom: 27px;
     background-color: transparent;
     width: 290px;
     height: 420px;
@@ -371,7 +379,7 @@ svg {
     background-image: url(Assets/Images/luca-bravo-unsplash-v2.png);
 }
 
-#back1 {
+#back1, #footer1 {
     background-image: linear-gradient(#205da1, #002147);
 }
 
@@ -379,7 +387,7 @@ svg {
     background-image: url(Assets/Images/martin-sanchez-unsplash-v2.png);
 }
 
-#back2 {
+#back2, #footer2 {
     background-image: linear-gradient(#3d3434, #212121);
 }
 
@@ -387,7 +395,7 @@ svg {
     background-image: url(Assets/Images/drz-unsplash-v2.png);
 }
 
-#back3 {
+#back3, #footer3 {
     background-image: linear-gradient(steelblue, rgb(39, 86, 124));
 }
 
@@ -395,7 +403,7 @@ svg {
     background-image: url(Assets/Images/waldemar-unsplash-v2.png);
 }
 
-#back4 {
+#back4, #footer4 {
     background-image: linear-gradient(#00CDAC, #02AAB0);
 }
 
@@ -403,7 +411,7 @@ svg {
     background-image: url(Assets/Images/kelly-sikkema-unsplash-v2.png);
 }
 
-#back5 {
+#back5, #footer5 {
     background-image: linear-gradient(#5E5C5C, #2F4353);
 }
 
@@ -411,7 +419,7 @@ svg {
     background-image: url(Assets/Images/kon-karampelas-unsplash-v2.png);
 }
 
-#back6 {
+#back6, #footer6 {
     background-image: linear-gradient(#152238, #101b2c);
 }
 
@@ -419,7 +427,7 @@ svg {
     background-image: url(Assets/Images/cloud-data-storage-v2.png);
 }
 
-#back7 {
+#back7, #footer7 {
     background-image: linear-gradient(#1a66ff, #144dc0);
 }
 
@@ -427,7 +435,7 @@ svg {
     background-image: url(Assets/Images/skye-studios-unsplash-v2.png);
 }
 
-#back8 {
+#back8, #footer8 {
     background-image: linear-gradient(#888888, #686868);
 }
 
@@ -435,7 +443,7 @@ svg {
     background-image: url(Assets/Images/magnus-engo-unsplash-v2.png);
 }
 
-#back9 {
+#back9, #footer9 {
     background-image: linear-gradient(#009900, #026d02);
 }
 
@@ -483,6 +491,34 @@ svg {
     height: 230px; 
     width: 250px;
 }
+
+
+
+
+@media (max-width: 991px) {
+    .flip-card:hover .flip-card-inner {
+        transform: none;
+        -webkit-transform: none;
+    }
+
+    .frontFooter {
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        height: 83px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .frontFooter {
+        display: none;
+    }
+}
+
 
 .bounce {
     display: inline-block;
@@ -606,10 +642,13 @@ svg {
 
 
 
+
+
+
 .footer {
     margin-left: 15px;
     margin-right: 15px;
-    padding-top: 30px;
+    padding-top: 60px;
     background-image: linear-gradient(#7e7e7e, #696969);
 }
 
