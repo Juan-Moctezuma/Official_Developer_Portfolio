@@ -64,13 +64,20 @@ header {
     position: relative;
     height: auto;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     background-color: #f1f1f1;
     color: #696969;
     font-size: 17px;
     border-radius: 35px;
     text-align: center;
     animation: btnFadeIn 1s linear;
+}
+
+@media (max-width: 640px) {
+    #headerBtn {
+       width:95%;
+       font-size: 8px;
+    }
 }
 
 @keyframes header1 {
@@ -120,6 +127,9 @@ header {
 .headerBtn button:hover {
     top: -3px;
 }
+
+
+
   
 header h1 {
     color: white;
@@ -132,6 +142,9 @@ svg {
     height: 10vw;
     /* set height to pixels if you want angle to change with screen width */
 }
+
+
+
 
 .aboutMe {
     background-color: #f8f8ff;
@@ -522,7 +535,6 @@ svg {
     margin-top: 5px;
     text-transform: uppercase;
     font-weight: 100;
-
     outline: none !important;;
     position: relative;
     -webkit-transition: all 0.3s;
@@ -545,14 +557,17 @@ svg {
     color: #fff;
     overflow: hidden;
 }
+
 .button-2:active {
     border-color: #009688;
     color: #009688;
 }
+
 .button-2:hover {
     background: #009688;
 }
-.button-2>.fa {
+
+.button-2 > .fa {
     position: absolute;
     height: 100%;
     font-size: 125%;
@@ -562,28 +577,32 @@ svg {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
-.button-2:active>.fa {
+
+.button-2:active > .fa {
     color: #009688;
 }
 
 /* Button 2a & 2b*/
-.button-2a>.fa {
+.button-2a > .fa {
     left: 130%;
     top: 0;
 }
 
-.button-2a:hover>.fa {
+.button-2a:hover > .fa {
     left: 80%;
 }
 
-.button-2b>.fa {
+.button-2b > .fa {
     left: 130%;
     top: 0;
 }
 
-.button-2b:hover>.fa {
+.button-2b:hover > .fa {
     left: 80%;
 }
+
+
+
 
 .footer {
     margin-left: 15px;
