@@ -282,7 +282,7 @@ svg {
 
 .flip-card {
     background-color: transparent;
-    width: 400px;
+    width: 350px;
     height: 480px;
     perspective: 1000px;
 }
@@ -459,8 +459,8 @@ svg {
 }
 
 #addressBook {
-    height: 270px; 
-    width: 335px;
+    height: 250px; 
+    width: 310px;
 }
 
 #pyWebscraper {
