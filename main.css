@@ -277,13 +277,13 @@ svg {
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     justify-items: center;
     align-items: center;
-    grid-gap: 55px;
+    grid-gap: 35px;
 }
 
 .flip-card {
     background-color: transparent;
-    width: 350px;
-    height: 480px;
+    width: 290px;
+    height: 420px;
     perspective: 1000px;
 }
       
@@ -317,7 +317,7 @@ svg {
 
 .flip-card-front > .slantedSection {
     font-family: 'PT Sans', sans-serif;
-    height: 160px;
+    height: 143px;
     background: tomato;
     clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
     background-repeat: no-repeat;
@@ -347,8 +347,9 @@ svg {
 
 .flip-card-front > .cardDetails {
     text-align: left;
-    padding-left: 55px;
+    padding-left: 10px;
     color: #555555;
+    font-size: 14px;
 }
 
 .cardDemoCheck {
@@ -439,48 +440,48 @@ svg {
 }
 
 #JMTechGIF {
-    height: 300px; 
-    width: 300px;
+    height: 250px; 
+    width: 250px;
 }
 
 #CovidGIF {
-    height: 300px; 
-    width: 300px;
+    height: 250px; 
+    width: 250px;
 }
 
 #colorGameGIF {
-    height: 300px; 
-    width: 300px;
+    height: 250px; 
+    width: 250px;
 }
 
 #gisMap {
-    height: 280px; 
-    width: 300px;
+    height: 230px; 
+    width: 250px;
 }
 
 #addressBook {
-    height: 250px; 
-    width: 310px;
+    height: 200px; 
+    width: 260px;
 }
 
 #pyWebscraper {
-    height: 280px; 
-    width: 300px;
+    height: 230px; 
+    width: 250px;
 }
 
 #JLMFComp {
-    height: 280px; 
-    width: 300px;
+    height: 230px; 
+    width: 250px;
 }
 
 #JMProjects {
-    height: 300px; 
-    width: 300px;
+    height: 250px; 
+    width: 250px;
 }
 
 #arduinoData {
-    height: 280px; 
-    width: 300px;
+    height: 230px; 
+    width: 250px;
 }
 
 .bounce {
@@ -541,6 +542,7 @@ svg {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 .button:after {
     content: '';
     outline: none !important;;
