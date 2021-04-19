@@ -460,13 +460,13 @@ svg {
 /* GIFs DIMENSIONS */
 
 #JMTechGIF {
-    height: 250px; 
-    width: 250px;
+    height: 230px; 
+    width: 245px;
 }
 
 #CovidGIF {
-    height: 250px; 
-    width: 250px;
+    height: 230px; 
+    width: 245px;
 }
 
 /*
@@ -482,8 +482,8 @@ svg {
 }
 
 #colorGameGIF {
-    height: 250px; 
-    width: 250px;
+    height: 230px; 
+    width: 245px;
 }
 
 #addressBookGIF {
@@ -497,18 +497,18 @@ svg {
 }
 
 #JLMFCompGIF {
-    height: 230px; 
-    width: 250px;
+    height: 210px; 
+    width: 242px;
 }
 
 #JMProjectsGIF {
-    height: 250px; 
-    width: 250px;
+    height: 230px; 
+    width: 245px;
 }
 
 #arduinoDataGIF {
-    height: 230px; 
-    width: 250px;
+    height: 215px; 
+    width: 245px;
 }
 
 /* FLIPPING CARD EFFECT IS OFF FOR SMALL SCREENS */
